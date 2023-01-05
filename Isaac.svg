@@ -1,0 +1,88 @@
+<svg width="500" height="500" viewBox="25 0 50 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="faceGradient">
+      <stop offset="10%" stop-color="#ffc3b5"/>
+      <stop offset="85%" stop-color="#fcaea9"/>
+      <stop offset="100%" stop-color="#ed9b95"/>
+    </radialGradient>
+
+    <radialGradient id="eyeGradient">
+      <stop offset="0%" stop-color="#222232"/>
+      <stop offset="80%" stop-color="#000"/>
+    </radialGradient>
+
+    <radialGradient id="eyeGlow">
+      <stop offset="70%" stop-color="#FFF"/>
+      <stop offset="90%" stop-color="rgba(0, 0, 0, 0)"/>
+    </radialGradient>
+
+    <linearGradient id="rightTearGradient" gradientTransform="rotate(116)">
+      <stop offset="40%" stop-color="#AAF"/>
+      <stop offset="73%" stop-color="#8282e8"/>
+    </linearGradient>
+
+    <linearGradient id="leftTearGradient" gradientTransform="rotate(77)">
+      <stop offset="86%" stop-color="#AAF"/>
+      <stop offset="140%" stop-color="#8282e8"/>
+    </linearGradient>
+
+    <linearGradient id="teethGradient" gradientTransform="rotate(90)">
+      <stop offset="10%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#c4c4c4"/>
+    </linearGradient>
+
+    <linearGradient id="mouthGradient" gradientTransform="rotate(90)">
+      <stop offset="10%" stop-color="#3b050d"/>
+      <stop offset="100%" stop-color="#1f0307"/>
+    </linearGradient>
+
+
+  </defs>
+
+  <!-- FACE -->
+  <circle id="face" cx="50" cy="23" r="20" fill="url(#faceGradient)" stroke="#000" stroke-width="1.5"/>
+
+  <!-- RIGHT TEAR -->
+  <path d="M 35.4, 25 C 34.7, 28, 36.5, 32, 35.03, 35.1 C 37.3, 37.8, 39, 39.2, 42, 40.5 C 43, 35, 40.5, 32, 44.2, 26.3" fill="url(#rightTearGradient)"/>
+
+  <!-- LEFT TEAR -->
+  <path d="M 55.4, 25.5 C 54, 35, 57, 38, 55, 41.6 C 57.5, 40.7, 59, 40.8, 63.4, 36.8 C 62, 30, 64, 30, 64.3, 24" fill="url(#leftTearGradient)"/>
+
+  <!-- MOUTH -->
+  <path d="M 45.5, 32 C 45.5, 25, 54.5, 25, 54.5, 32" fill="url(#mouthGradient)"/>
+
+  <!-- TEETH -->
+  <path d="M 45.7, 31.6 C 45.8, 30.8, 45.8, 30.8, 46.1, 30.2 C 50, 30, 50, 30, 54, 30.2 C 54.2, 31.4, 54.2, 31.4, 54.2, 31.6" fill="url(#teethGradient)"/>
+
+
+  <!-- RIGHT EYE -->
+  <circle id="rightEye" cx="40" cy="23" r="5.3" fill="url(#eyeGradient)" />
+
+  <circle class="eyeGlow" cx="38" cy="31.5" r="2.3" fill="url(#eyeGlow)" transform="skewY(-15)"/>
+
+  <circle class="eyeGlow" cx="41" cy="20.5" r="0.8" fill="url(#eyeGlow)" transform="skewY(-40, 41, 20.5)"/>
+
+  <!-- LEFT EYE -->
+  <circle id="leftEye" cx="60" cy="23" r="5.3" fill="url(#eyeGradient)" />
+
+  <circle class="eyeGlow" cx="58" cy="36.8" r="2.3" fill="url(#eyeGlow)" transform="skewY(-15)"/>
+
+  <circle class="eyeGlow" cx="61" cy="20.5" r="0.8" fill="url(#eyeGlow)" transform="skewY(-40, 61, 20.5)"/>
+
+
+  <!-- FACE -->
+
+
+  <!-- FACE -->
+
+
+  <!-- FACE -->
+
+
+  <!-- FACE -->
+
+
+  <!-- FACE -->
+
+
+</svg>
